@@ -8,7 +8,9 @@ The primary goal was to strengthen my Python and Power BI skills while analyzing
 The analysis is based on the **Our World in Data (OWID)** energy and CO₂ datasets, covering the period **1990–2022**.  
 All variables used in the analysis are documented in `codebook.csv`, which provides detailed definitions and sources.
 
-## Forecast Model
+## Methodology
+The analysis combines descriptive statistics, panel-style visual comparisons, and time-series forecasting techniques.  
+Trends are explored using country-level and global aggregates, with a focus on long-run structural changes in emissions and energy use.
 The forecasts were produced using an additive time-series forecasting framework (Prophet), fitted using historical CO2 emissions. The forecast is 15 years ahead and the frequency is year-end.
 
 ## Conclusion
